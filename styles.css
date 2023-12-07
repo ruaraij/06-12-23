@@ -1,0 +1,617 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #212121;
+}
+
+.Login {
+    width: vw;
+    height: vh;
+    position: relative;
+    background: black;
+}
+
+.Background {
+    width: 1440px;
+    height: 2066px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(32.92, 32.92, 32.92, 0.85);
+}
+
+.Rectangle1 {
+    width: 1127px;
+    height: 1955.35px;
+    left: 168px;
+    top: 55px;
+    position: absolute;
+    background: #2D2D2D;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    border: 1px rgba(254.77, 254.77, 254.77, 0) solid;
+}
+
+.Rectangle3 {
+    width: 1135px;
+    height: 76.73px;
+    left: 168px;
+    top: 1940.79px;
+    position: absolute;
+    background: rgba(32.92, 32.92, 32.92, 0.90);
+    border-radius: 16px;
+}
+
+.Group4 {
+    width: 175px;
+    height: 61.03px;
+    left: 393px;
+    top: 1946px;
+    position: absolute;
+}
+
+.RectangleListar {
+    width: 175px;
+    height: 61.03px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 30px;
+    border: 2px white solid;
+}
+
+.Listar {
+    width: 100px;
+    height: 55.12px;
+    left: 35px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.Group3 {
+    width: 175px;
+    height: 61.03px;
+    left: 900px;
+    top: 1946px;
+    position: absolute;
+}
+
+.Enviar {
+    width: 100px;
+    height: 55.12px;
+    left: 38px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.RectangleEnviar {
+    width: 175px;
+    height: 61.03px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 30px;
+    border: 2px white solid;
+}
+
+.Stardust {
+    width: 150px;
+    height: 36px;
+    left: 1150px;
+    top: 1960px;
+    position: absolute;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.11);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.Nome {
+    width: 264px;
+    height: 42px;
+    left: 362px;
+    top: 206px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.Cpf {
+    width: 264px;
+    height: 42px;
+    left: 362px;
+    top: 310px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.RectangleData {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 402px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleCpf {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 301px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleNome {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 197px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleRg {
+    color: white;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 506px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.DataNasc {
+    width: 264px;
+    height: 42px;
+    left: 362px;
+    top: 411px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.Rg {
+    width: 264px;
+    height: 42px;
+    left: 362px;
+    top: 515px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.RectangleExped {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 609px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleTelefone {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 713px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.ExpediO {
+    width: 264px;
+    height: 42px;
+    left: 362px;
+    top: 618px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.Telefone {
+    width: 264px;
+    height: 42px;
+    left: 362px;
+    top: 722px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.RectangleEmail {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 814px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleUc {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 918px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.Email {
+    width: 264px;
+    height: 42px;
+    left: 370px;
+    top: 823px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.UcGeradora {
+    width: 264px;
+    height: 42px;
+    left: 353px;
+    top: 929px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.RectangleCep {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 1022px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleUcs {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 1126px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.Cep {
+    width: 264px;
+    height: 42px;
+    left: 362px;
+    top: 1028px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.UcsBeneficiadas {
+    width: 300px;
+    height: 42px;
+    left: 293px;
+    top: 1133px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.RectangleDisjuntor {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 1227px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleLoc {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 1331px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.DisjuntorMedidor {
+    width: 350px;
+    height: 42px;
+    left: 255px;
+    top: 1239px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.LocalizaO {
+    width: 264px;
+    height: 42px;
+    left: 353px;
+    top: 1340px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.RectangleLatitude {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 1434px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleLongitude {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 1538px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.Latitude {
+    width: 264px;
+    height: 42px;
+    left: 370px;
+    top: 1441px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.Longitude {
+    width: 264px;
+    height: 42px;
+    left: 362px;
+    top: 1547px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.RectanglePoste {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 1639px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.RectangleKit {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 455px;
+    height: 60px;
+    left: 605px;
+    top: 1743px;
+    position: absolute;
+    background: #353535;
+    border-radius: 16px;
+}
+
+.Poste {
+    width: 264px;
+    height: 42px;
+    left: 380px;
+    top: 1648px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+
+.Kit {
+    width: 264px;
+    height: 42px;
+    left: 380px;
+    top: 1752px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+}
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.Group4, .Group3 {
+    width: 175px;
+    height: 61.03px;
+}
+
+.Group4:hover .RectangleListar, .Group3:hover .RectangleEnviar {
+    
+    border-color: #fff; 
+}
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    transition: border-color 0.3s; 
+}
+
+.Group4, .Group3 {
+    width: 175px;
+    height: 61.03px;
+}
+
+.Group4:hover, .Group3:hover {
+    border: 2px solid blue;
+}
+
+
+.RectangleListar, .RectangleEnviar {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.Group4:hover .RectangleListar, .Group3:hover .RectangleEnviar {
+    /* Alterando estilos ao passar o mouse sobre o botão */
+    border-color: blue; /* Mudando a cor da borda ao passar o mouse */
+}
